@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # === Load Model and Version Info from Pickle ===
-with open("bigmart_best_model.pkl", "rb") as f:p
+with open("bigmart_best_model.pkl", "rb") as f:
     model, sklearn_version = pickle.load(f)
 
 st.title("🛒 BigMart Sales Prediction App")
